@@ -1,0 +1,150 @@
+/* Common CSS Start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+}
+ol, ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Common CSS End */
+
+/* Nav Section Start */
+nav{
+    background-color: #131e29;
+}
+nav .row{
+    align-items: center;
+}
+nav .logo{
+    width: 20%;
+}
+nav .logo a{
+    display: inline-block;
+}
+nav .menu{
+    width: 80%;
+    
+}
+nav .menu ul{
+    justify-content: flex-end;
+}
+nav .menu ul li a{
+    display: block;
+    padding: 40px 18.5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+}
+nav .menu ul li a:hover{
+    color: #4bcaff;
+    font-weight: 700;
+}
+nav .menu ul li:nth-child(1) a{
+    color: #4bcaff;
+    font-weight: 700;
+}
+/* Nav Section End */
+
+/* Banner Section Start */
+#banner{
+    height: 704px;
+    background-image: url("../images/banner_bg.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+#banner .container{
+    height: 100%;
+}
+#banner .row{
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+#banner .banner_image{
+    width: 40%;
+    position: absolute;
+    left: 0;
+    bottom: -88px;
+}
+#banner .banner_content{
+    width: 60%;
+    color: #fff
+}
+#banner .banner_content h1{
+    font-size: 48px;
+    font-weight: 300;
+}
+#banner .banner_content h1 span{
+    font-weight: 700;
+}
+#banner .banner_content > p{
+    font-size: 18px;
+    font-weight: 300;
+    margin: 34px 0 44px 0;
+}
+#banner .banner_content .banner_button a{
+    display: inline-block;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 23px 50px;
+    text-transform: uppercase;
+    transition: all 0.4s linear;
+}
+#banner .banner_content .banner_button a:hover{
+    background-color: #4bcaff;
+    border: 2px solid #277697;
+}
+#banner .banner_content .banner_button a:nth-child(1){
+    margin-right: 40px;
+}
+#banner .banner_content .bazinger_app{
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 50px;
+}
+#banner .banner_content .bazinger_app p{
+    margin-right: 22px;
+    font-size: 18px;
+    font-weight: 300;
+}
+#banner .banner_content .bazinger_app a{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.35);
+    text-align: center;
+    line-height: 50px;
+    font-size: 28px;
+    color: #4bcaff;
+}
+#banner .banner_content .bazinger_app a:nth-child(2){
+    margin-right: 16px;
+}
+/* Banner Section End */
